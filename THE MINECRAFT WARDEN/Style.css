@@ -1,7 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=Notable&display=swap');
+
 h1 {
-    background-color: rgb(38, 127, 174);
+  background-color: rgb(38, 127, 174);
 }
 
-P{
-    font-size: large;
+p {
+  color: aqua;
+  font-size: large;
+}
+
+body {
+  margin: 0;
+  background-color: #130f50;
+}
+
+#game-area {
+  position: relative;
+  width: 1200px;
+  height: 700px;
+  margin: 50px auto;
+  background-image: url('media/background.jpg'); /* Consistent file path */
+  background-size: cover;
+  background-position: center;
+  border: 2px solid black;
+  overflow: hidden;
+}
+
+#character {
+  position: absolute;
+  width: 100px;
+  height: 200px;
+  object-fit: cover;
+  /* border-radius: 5px;
+  border-style: solid;
+  border-color: red; */
+}
+
+#enemy {
+  position: absolute;
+  width: 250px;
+  height: 350px;
+}
+
+#chest {
+  position: absolute;
+  width: 120px;
+  height: 80px;
+  left: 600px;
+  bottom: 0;
 }
